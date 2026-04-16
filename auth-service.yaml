@@ -1,0 +1,20 @@
+vserver:
+  port: 8085
+
+spring:
+  application:
+    name: AUTH-SERVICE
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/auth_db
+    username: fincons
+    password: fincons123
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+jwt:
+  secret: my-super-secret-key
+  expiration: 3600000
