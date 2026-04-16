@@ -6,7 +6,7 @@ spring:
     name: AUTH-SERVICE
 
   datasource:
-    url: jdbc:postgresql://localhost:5436/user
+    url: jdbc:postgresql://localhost:5436/user?currentSchema=public&TimeZone=Asia/Kolkata
     username: fincons
     password: fincons123
 
