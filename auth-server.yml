@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: AUTH-SERVICE
+    name: AUTH-SERVER
 
   datasource:
     url: jdbc:postgresql://localhost:5436/user?currentSchema=public&TimeZone=Asia/Kolkata
