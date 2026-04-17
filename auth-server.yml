@@ -16,5 +16,5 @@ spring:
     show-sql: true
 
 jwt:
-  secret: my-super-secret-key
+  secret: mySuperSecureJwtSecretKeyThatIsAtLeast32BytesLong12345
   expiration: 3600000
