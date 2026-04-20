@@ -9,6 +9,7 @@ spring:
     url: jdbc:postgresql://localhost:5438/quiz?currentSchema=public&TimeZone=Asia/Kolkata
     username: fincons
     password: fincons123
+    driver-class-name: org.postgresql.Driver
 
   jpa:  
     hibernate:
